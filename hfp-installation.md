@@ -33,7 +33,7 @@ go to .env file
 
 Change ![alt text](image-3.png) to your actual client id and secret
 
-add ````http://localhost:3000/callback/discord```` to your bot redirect
+add ````http://localhost:3000/callback/discord```` to your bot redirect ( change localhost:3000 to your domain, E.g: client.example.com )
 ![alt text](image-4.png)
 
 change PTERODACTYL_URL to your panel url and PTERODACTYL_KEY to api key
