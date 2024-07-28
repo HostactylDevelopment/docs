@@ -1,25 +1,28 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+lastUpdated: true
+
+# https://hostactylsystems.tech/docs
 layout: home
 
 hero:
-  name: "Hostactyl "
-  text: "Dashboard"
-  tagline: Hostactyl Dashboard Documentation for Pterodactyl Panel
+  name: "Hostactyl"
+  text: "Documentation"
+  tagline: ''
   actions:
     - theme: brand
-      text: Get Started
-      link: /Get-Started
+      text: Documentation
+      link: /hfp-introduction
+    - theme: alt
+      text: Report a Bug
+      link: https://discord.com/invite/Q9YfdZNN
     - theme: alt
       text: Github
-      link: https://github.com/HostactylDevelopment
+      link: https://github.com/HostactylDevelopment/
 
 features:
-  - title: Feature 1
-    details: Hostactyl Dashboard have a clean UI experience. 
-  - title: Feature 2
-    details: Hostactyl Dashboard is simple to use and install.
-  - title: Feature 3
-    details: Hostactyl Dashboard comes with open-source, you can make changes to your d
+  - title: Introduction to every Project
+    details: Our Documentation introduces you to our every project!
+  - title: Installation
+    details: We provide each and every step to install any of our project on your system!
 ---
 
