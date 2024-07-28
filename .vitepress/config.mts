@@ -1,30 +1,52 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// https://hostactylsystems.tech
 export default defineConfig({
   title: "Hostactyl",
-  description: "Hostactyl Dashboard Documentation for Pterodactyl Panel",
+  description: "Hostactyl Documentation",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://hostactylsystems.tech/theme-config.yml
+    search: {
+      provider: 'local'
+    },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Get Started', link: '/Get-Started' }
+    //   { text: 'Home', link: '/' },
+    //   { text: 'Documentation', link: '/hfp-introduction' },
+    //   { text: 'Report a Bug', link: 'https://discord.gg/Q9YfdZNN' }
     ],
+    footer: {
+      message: 'Released under the Apache 2.0 License.',
+      copyright: 'Copyright © 2024 Hostactyl Development & all the Contributors. Made with Vitepress!'
+    },
 
     sidebar: [
       {
-        text: 'Docs',
+        text: 'Docs For Pterodactyl',
+        collapsed: false,
         items: [
-          { text: 'Get Started', link: '/Get-Started' },
-          { text: 'Custom-Domain', link: '/domain' }
-       ]
+          { text: 'Hostactyl Introduction', link: '/hfp-introduction' },
+          { text: 'Hostactyl Dependiencies', link: '/hfp-dependiencies' },
+          { text: 'Hostactyl Installation', link: '/hfp-installation' },
+          { text: 'Custom Domain', link: '/hfp-domain' },
+        ]
       },
       {
-        text: 'More',
+        text: 'Extra',
+        collapsed: false,
         items: [
           { text: 'Plans', link: '/plans' },
-          { text: 'Eggs', link: '/eggs' },
-          { text: 'Location', link: '/location' }
+          { text: 'Egg', link: '/eggs' },
+          { text: 'Location', link: '/location' },
+        ]
+      },
+      {
+        text: 'Docs For Skyport',
+        collapsed: false,
+        items: [
+          { text: 'Hostactyl Introduction', link: '/hfs-introduction' },
+          { text: 'Hostactyl Dependiencies', link: '/hfs-dependiencies' },
+          { text: 'Hostactyl Installation', link: '/hfs-installation' },
+          { text: 'Custom Domain', link: '/hfp-domain' },
         ]
       }
     ],
