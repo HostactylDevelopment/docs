@@ -12,7 +12,7 @@ outline: deep
 
 4) Run certbot certonly -d `<Your Domain>` then do 1 and put your email
 
-5) Run `nano /etc/nginx/sites-enabled/nero.conf`
+5) Run `nano /etc/nginx/sites-enabled/hostactyl.conf`
 
 6) Paste the configuration at the bottom of this and replace `<domain>` with the domain you want it to run on and `<port>` with the port it is already running on. By default that is 3000.
 
