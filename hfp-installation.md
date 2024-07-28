@@ -42,6 +42,9 @@ change PTERODACTYL_URL to your panel url and PTERODACTYL_KEY to api key
 Change email to your email address to get admin
 ![alt text](image-6.png)
 
+Change APP_URL to your dashboard url. E.g: client.example.com
+![pic](loc.png)
+
 Change price of the Resources
 ![alt text](image-7.png)
 
