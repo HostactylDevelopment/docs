@@ -19,7 +19,7 @@ sudo apt update && apt upgrade -y
 
 sudo apt install git
 
-npm install p2
+npm install pm2
 
 git clone https://github.com/HostactylDevelopment/HostactylForPterodactylv1.git
 
