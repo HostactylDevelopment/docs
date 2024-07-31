@@ -2,7 +2,7 @@
 
 Now Lets Customize Plans
 
-### Please Note: The Name of the Plans shown in the images below after old and all the Plans has been renamed. Kindly do not be confused!
+### Please Note: The Name of the Plans shown in the images below are old and all the Plans has been renamed. Kindly do not be confused!
 
 Head over to /storage/plans.json
 
