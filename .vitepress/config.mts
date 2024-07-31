@@ -46,7 +46,7 @@ export default defineConfig({
           { text: 'Hostactyl Introduction', link: '/hfs-introduction' },
           { text: 'Hostactyl Dependiencies', link: '/hfs-dependiencies' },
           { text: 'Hostactyl Installation', link: '/hfs-installation' },
-          { text: 'Custom Domain', link: '/hfp-domain' },
+          { text: 'Custom Domain', link: '/domain' },
         ]
       }
     ],
